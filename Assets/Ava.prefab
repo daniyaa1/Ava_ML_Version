@@ -518,9 +518,9 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 6146020395071331265}
   m_AABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_DirtyAABB: 1
+    m_Center: {x: 0, y: 0.7991235, z: 0.0013210028}
+    m_Extent: {x: 0.69447684, y: 0.79912376, z: 0.1392876}
+  m_DirtyAABB: 0
 --- !u!1 &580025797824833265
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,9 +805,9 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 6146020395071331265}
   m_AABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_DirtyAABB: 1
+    m_Center: {x: 0.00012800843, y: 1.3715993, z: -0.07932781}
+    m_Extent: {x: 0.11233533, y: 0.23449194, z: 0.16956575}
+  m_DirtyAABB: 0
 --- !u!1 &1190721425779725801
 GameObject:
   m_ObjectHideFlags: 0
@@ -2816,9 +2816,9 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 6146020395071331265}
   m_AABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_DirtyAABB: 1
+    m_Center: {x: 0.000000052154064, y: 1.4688532, z: 0.016835578}
+    m_Extent: {x: 0.10882425, y: 0.11667144, z: 0.07242678}
+  m_DirtyAABB: 0
 --- !u!1 &4240448920970014359
 GameObject:
   m_ObjectHideFlags: 0
@@ -4186,6 +4186,7 @@ GameObject:
   - component: {fileID: 6853563182231900144}
   - component: {fileID: 8316515924094966325}
   - component: {fileID: 3085573517618560289}
+  - component: {fileID: 4282760486637177484}
   m_Layer: 0
   m_Name: Ava
   m_TagString: Untagged
@@ -4250,7 +4251,7 @@ Animator:
   m_GameObject: {fileID: 8359058495368766980}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 790ac149f10f44081aad1ef0c08384cc, type: 2}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6d2b66ae3ad524270bfc43894bc716d4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4472,6 +4473,18 @@ MonoBehaviour:
       m_RotationOrder: 4
     CurveXRangeDegree: 90
     CurveYRangeDegree: 10
+--- !u!114 &4282760486637177484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8359058495368766980}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5e6f37e8ed4401fbaf7fb274ed6899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8401391790991525826
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Ava_Research_Sandbox.unity
+    guid: 84cd17cee46114f96b129b466d026135
   m_configObjects: {}
