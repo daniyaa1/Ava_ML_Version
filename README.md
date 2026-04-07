@@ -29,7 +29,7 @@ Built on a **VRM-based humanoid model** inside Unity 2022, Ava combines the powe
 
 ![Ava in action](Ava.gif)
 
-> The demo above shows Ava's voice interaction and animation system running inside Unity. Ava listens via the **LISTEN** button, processes the input through Gemini AI, and responds with synchronized avatar animations.
+> The demo above shows Ava's text interaction and animation system running inside Unity. Ava listens, processes the input through Gemini AI, and responds with synchronized avatar animations.
 
 ---
 
