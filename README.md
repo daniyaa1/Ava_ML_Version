@@ -2,7 +2,6 @@
 
 > An AI-powered 3D avatar that converts spoken and written English into **Indian Sign Language (ISL)** animations in real time, built to bridge communication gaps for the hearing-impaired community.
 
-![Ava Demo](Ava.gif)
 
 ---
 
